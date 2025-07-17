@@ -28,7 +28,7 @@ jobs:
         uses: snyk/actions/maven@master
         continue-on-error: true
         env:
-          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+          SNYK_TOKEN: ${{secrets.SNYK_TOKEN}}
   # zap_scan:
   #   runs-on: ubuntu-latest
   #   needs: security
